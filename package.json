@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^1.3.4"
+  },
+  "dependencies": {
+    "applescript": "^1.0.0"
+  }
+}
