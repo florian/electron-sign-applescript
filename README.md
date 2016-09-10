@@ -5,3 +5,7 @@
 3. `npm start` to run the app
 
 The app should display a new random number every second. If not then something is going wrong.
+
+## Packaging
+
+`npm run package`
