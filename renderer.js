@@ -1,7 +1,3 @@
-as = require('./applescript')
+as = require('./applescript').file
 
-setInterval(() => {
-  as((n) => {
-    document.getElementById('number').innerHTML = n
-  })
-}, 1000)
+as("applescripts/spotlight")
