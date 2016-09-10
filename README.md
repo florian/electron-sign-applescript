@@ -8,7 +8,7 @@ The app should open Spotlight / run an AppleScript for pressing Cmd+Space. If no
 
 ## Packaging
 
-`make`
+`make` will package the app and try to sign it. The goal is that executing the signed .app file will open Spotlight. Currently this doesn't work because of missing entitlements.
 
 ## Related issue
 
